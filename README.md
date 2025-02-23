@@ -4,7 +4,7 @@
 
 The entire content of the STARK is built with Jupyter book and other python based documentation, rederers and visualisers.
 
-## Setup Environment
+## Environment
 
 To replicate the development environment or the editing environment can be set up using the Anaconda/Miniconda package manager does'nt matter which one is used as long as you have environment.yml file
 
@@ -18,10 +18,17 @@ For this setup we gone with python 3.8.16 since it's the last python version tha
 Pip version is always chosen to be updated to latest available (23.1.2)
 
 ```bash
+# Create the conda virtual environment using yml file 
 conda env create -f environment.yml
+
+# Acivate the virtual environment
 activate stark
 
+# Create the html content of the book
 jupyter-book build .
+
+# Update the conda environment usig the yml file
+conda env update --file environment.yml --prune
 ```
 
 ## Contribute
