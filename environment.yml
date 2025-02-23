@@ -1,4 +1,4 @@
-name: application_research_notes
+name: stark
 channels:
   - conda-forge
   - defaults

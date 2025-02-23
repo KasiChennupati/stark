@@ -1,8 +1,8 @@
-# Application Research Notes
+# STARK
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://www.kasichennupati.com/Application-Research-Notes/)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://www.kasichennupati.com/stark/)
 
-The entire content of the Application research is built with Jupyter book and other python based documentation, rederers and visualisers.
+The entire content of the STARK is built with Jupyter book and other python based documentation, rederers and visualisers.
 
 ## Setup Environment
 
@@ -19,7 +19,7 @@ Pip version is always chosen to be updated to latest available (23.1.2)
 
 ```bash
 conda env create -f environment.yml
-activate application_research_notes
+activate stark
 
 jupyter-book build .
 ```
@@ -34,4 +34,3 @@ The best way is to raise a Github Issue 🙂
 
 The content is only added to the markdown files in the chapters folder and raise a PR.
 The content will then be built to Jupyter book by owners and merged to **main branch** from **proof-read** branch.
-
